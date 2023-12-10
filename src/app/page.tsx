@@ -128,7 +128,7 @@ export default function Home() {
       <p className='text-black text-2xl'>Similar images</p>
       <p className='text-lg pl-6 pt-1 flex flex-row text-purple-600'>View All <IoIosArrowForward className="mt-1 ml-2"/></p>
       </div>
-      <div className='flex flex-wrap p-4 object-contain'>
+      <div className='grid grid-cols-2 gap-2  md:grid md:grid-cols-5 md:space-x-1 object-contain'>
        <Image src={img1}  alt="Picture of the author" className='ml-8 w-52 h-64 mt-2'/>
        <Image src={img2} alt="Picture of the author" className='ml-8 w-64 h-64 mt-2'/>
        <Image src={img3} alt="Picture of the author" className='ml-8 w-52 h-64 mt-2'/>
